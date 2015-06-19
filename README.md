@@ -1,8 +1,7 @@
 Reactjs Component for International Telephone Input
 ===================================================
 
-Inspired from the awesome jquery plugin for <a href="https://github.com/Bluefieldscom/intl-tel-input" target="_blank">International Telephone Input</a>.
-
+Inspired by the awesome jQuery plugin <a href="https://github.com/Bluefieldscom/intl-tel-input" target="_blank">International Telephone Input</a>.
 
 This one is written as a [reactjs](http://facebook.github.io/react/) component.
 
@@ -25,14 +24,14 @@ React.renderComponent(<FlagBearer defaultCountry="in"/>, document.getElementById
 - Copy the flags.png file from the example folder to your root directory. If you copy it somewhere else, please correct the file location in the less file.
 
 ## Features
-* Automatically format the number as the user types
-* Navigate the country dropdown by typing a country's name, or using up/down keys
-* Selecting a country from the dropdown will update the dial code in the input
-* Typing a different dial code will automatically update the displayed flag
-* Country names in the dropdown also include localised versions in brackets
-* Dropdown appears above or below the input depending on available space/scroll position
+* Automatically formats the number as the user types.
+* Navigate the country dropdown by typing a country's name, or using up/down keys.
+* Selecting a country from the dropdown will update the dial code in the input.
+* Typing a different dial code will automatically update the displayed flag.
+* Country names in the dropdown also include localised versions in brackets.
+* Dropdown appears above or below the input depending on available space/scroll position.
 
-You can try the app by downloading everything and running the commands given below -
+You can try the app by cloning this repo and running the commands given below -
 
 ```
 $ npm install
